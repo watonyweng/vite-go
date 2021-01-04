@@ -1,11 +1,9 @@
 {
   "name": "vite-go",
-  "version": "0.0.1",
-  "description": "How to use vite in Vue.js",
-  "author": "Watony Weng <softweitao@126.com>",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vuedx-typecheck . && vite build"
   },
   "repository": {
     "type": "git",
@@ -17,11 +15,14 @@
   "homepage": "https://github.com/watonyweng/vite-go#readme",
   "license": "MIT",
   "dependencies": {
-    "vue": "^3.0.3"
+    "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.3",
-    "node-forge": "^0.10.0",
-    "vite": "^1.0.0-rc.13"
+    "@vitejs/plugin-vue": "^1.0.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vuedx/typecheck": "^0.4.1",
+    "@vuedx/typescript-plugin-vue": "^0.4.1",
+    "typescript": "^4.1.3",
+    "vite": "^2.0.0-beta.4"
   }
 }

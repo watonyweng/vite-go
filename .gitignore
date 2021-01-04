@@ -6,13 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 
 ### Build Directory ###
-/dist/
-
-### Test Directory ###
-/tests/unit/coverage/
-/tests/e2e/reports/
-selenium-debug.log
-.nyc_output/
+dist/
+dist-ssr/
 
 ### Dependency Directory ###
 node_modules/
@@ -23,7 +18,7 @@ node_modules/
 *.njsproj
 *.sln
 
-### macOS Directory ### 
+### macOS Directory ###
 .DS_Store
 .AppleDouble
 .LSOverride
