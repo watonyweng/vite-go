@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <HelloWorld msg="Welcome to Vue 3 & Vite 2" />
 </template>
 
 <script lang="ts">

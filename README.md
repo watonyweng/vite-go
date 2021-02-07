@@ -4,7 +4,8 @@ This project was generated using [vue-next](https://github.com/vuejs/vue-next) a
 
 ## Requirements
 
-- [Vue Next](https://github.com/vuejs/vue-next)
+- [Vue Next](https://v3.vuejs.org)
+- [Vite](https://vitejs.dev)
 
 ## Environment
 
